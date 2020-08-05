@@ -65,4 +65,4 @@ height: default height
 - Fontawsome
 - Momentum
 - Google
-- Jai Hind
+- Gradient
