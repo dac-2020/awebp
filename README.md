@@ -1,9 +1,10 @@
 # Day 3
 
-- Flexbox
+- Flexbox [Direction / Demo]
 - Fontawsome
 - Momentum
 - Google
+- background and graident
 - Gradient
 
 # Day 2
