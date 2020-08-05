@@ -1,7 +1,17 @@
+# Day 2
+
+- CSS Basics Property [color, background, border, margin, padding, units, colors ]
+- CSS Flex Box Detail
+- Fontawsome
+- Momentum
+- Google
+- Gradient
+
+# Day 1
+
 - Predefined Tags
 - Angular Brackets
 - Root Tags
-
 - How to run the HTML Program.
 
 # Extension 1 - How to run the HTML Program.
