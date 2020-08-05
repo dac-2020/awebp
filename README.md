@@ -48,6 +48,17 @@
 - font-family
 - text-align
 
+### Element Adjacent to Each other
+
+- float : left;
+- display: inline;
+
+#### Related with flex
+
+- diplay: flex; // Very Important
+- justify-content : flex-start/center/flex-end/space-between :: Main Axis
+- align-items :: Cross Axis
+
 # Day 1
 
 - Predefined Tags
