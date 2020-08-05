@@ -57,3 +57,11 @@ background: white;
 starts : top left;
 width: 100% (blocking elemnt)
 height: default height
+
+# Day 2
+
+- CSS Basics Property [color, background, border, margin, padding ]
+- CSS Flex Box Detail
+- Momentum
+- Google
+- Jai Hind
