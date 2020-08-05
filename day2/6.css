@@ -1,0 +1,11 @@
+.common-style {
+  color: yellow;
+  background: royalblue;
+
+  margin-bottom: 16px;
+  padding: 12px;
+
+  font-size: 24px;
+  font-family: cursive;
+  text-align: center;
+}

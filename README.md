@@ -8,6 +8,46 @@
 - Google
 - Gradient
 
+### Most important tag of the Day 2
+
+- <div>
+
+### Most Important CSS Property
+
+- color (foreground)
+  -- COLOR_NAME
+  -- rgb(200, 200, 200)
+  -- rgba(50, 50, 50, 1) A is OPACITY here, the value can be (0, 1)
+  -- hashcode (#4a8ad3)
+- background
+- border
+  -- border width
+  -- border style (solid/dotted)
+  -- border color
+- border-left
+- border-right
+- border-top
+- border-bottom
+- border-radius
+
+- margin (If we want space BETWEEN element)
+  -- margin-top
+  -- mrging-bottom
+  -- margin-left
+  -- margin-right
+- padding (Space WITHIN element)
+  -- padding-top
+  -- padding-bottm
+  -- padding-left
+  -- padding-right
+
+### Text Styling
+
+- font-size
+- font-weight
+- font-family
+- text-align
+
 # Day 1
 
 - Predefined Tags
