@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+      .myclass {
+        height: 100vh;
+        background: linear-gradient(orange, white, lightgreen);
+
+        position: relative;
+        z-index: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .rotate-img {
+        animation-name: rotate;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myclass">
+      <img src="ac.png" alt="" height="75px" class="rotate-img" />
+    </div>
+  </body>
+</html>
