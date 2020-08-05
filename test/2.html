@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+      .myclass {
+        height: 100vh;
+        position: relative;
+        z-index: 1;
+      }
+      .myclass::before {
+        background: linear-gradient(to left, transparent, lightgreen), url("https://picsum.photos/id/1001/1400/1000");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        filter: opacity(0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myclass">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At perspiciatis ea officia minima eaque, ipsum
+      accusantium culpa esse adipisci exercitationem rerum dolores consequatur, cum voluptatum! Eaque voluptas maiores
+      fugit iure.
+    </div>
+  </body>
+</html>
