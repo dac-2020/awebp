@@ -60,8 +60,9 @@ height: default height
 
 # Day 2
 
-- CSS Basics Property [color, background, border, margin, padding ]
+- CSS Basics Property [color, background, border, margin, padding, units, colors ]
 - CSS Flex Box Detail
+- Fontawsome
 - Momentum
 - Google
 - Jai Hind
