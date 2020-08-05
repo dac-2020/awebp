@@ -1,5 +1,6 @@
 # Day 2
 
+- Quick Revision
 - CSS Basics Property [color, background, border, margin, padding, units, colors ]
 - CSS Flex Box Detail
 - Fontawsome
