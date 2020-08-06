@@ -1,3 +1,12 @@
+# Day 4
+
+- Flexbox [ CV Practical / Google Page]
+- JS Fundamentals
+- CSS Selectors
+- HTML Form Elements
+- Fontawsome
+- background and graident
+
 # Day 3
 
 - Flexbox [Direction / Demo]
