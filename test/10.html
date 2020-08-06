@@ -20,6 +20,13 @@
       body {
         margin: 0;
       }
+
+      input::placeholder {
+        font-size: 16px;
+      }
+      * {
+        box-sizing: border-box;
+      }
     </style>
   </head>
   <body>
@@ -54,12 +61,17 @@
         <div style="margin-bottom: 16px; font-size: 32px;">
           Register Here
         </div>
+
         <div
           style="display: flex; align-items: center; margin-bottom: 8px;"
         >
           <i
             class="fas fa-user"
-            style="font-size: 2rem; margin-right: 8px;"
+            style="
+              font-size: 2rem;
+              margin-right: 8px;
+              color: rgba(0, 0, 0, 0.75);
+            "
           ></i>
           <input
             type="text"
@@ -70,10 +82,16 @@
           />
         </div>
 
-        <div style="display: flex; align-items: center;">
+        <div
+          style="display: flex; align-items: center; margin-bottom: 8px;"
+        >
           <i
-            class="fas fa-user"
-            style="font-size: 2rem; margin-right: 8px;"
+            class="fas fa-lock"
+            style="
+              font-size: 2rem;
+              margin-right: 8px;
+              color: rgba(0, 0, 0, 0.75);
+            "
           ></i>
           <input
             type="password"
@@ -81,6 +99,39 @@
             id=""
             placeholder="password"
             style="width: 20vw; height: 35px; border-radius: 8px;"
+          />
+        </div>
+
+        <div
+          style="display: flex; align-items: center; margin-bottom: 8px;"
+        >
+          <i
+            class="fas fa-lock"
+            style="
+              font-size: 2rem;
+              margin-right: 8px;
+              color: rgba(0, 0, 0, 0.75);
+            "
+          ></i>
+          <input
+            type="password"
+            name=""
+            id=""
+            placeholder="password"
+            style="width: 20vw; height: 35px; border-radius: 8px;"
+          />
+        </div>
+
+        <div>
+          <input
+            type="button"
+            value="Register"
+            style="
+              font-size: 21px;
+              width: 16vw;
+              padding: 4px;
+              border-radius: 8px;
+            "
           />
         </div>
       </div>
