@@ -7,6 +7,19 @@
 - background and graident
 - Gradient
 
+## Flex Continues
+
+- display : flex;
+- flex-direction : row/column;
+- justify-content : Main Axis
+- align-items : Corss Axis
+- flex:1
+
+- direction Row
+  -- Main Axis (X) / Cross Axis (Y)
+- Direction Column
+  -- Main Axis (Y) / Cross Axis (X)
+
 # Day 2
 
 - Quick Revision
@@ -48,10 +61,11 @@
 
 ### Text Styling
 
+- color
 - font-size
 - font-weight
 - font-family
-- text-align
+- text-align (Mircrosoft, Left/Center/Right/Justify)
 
 ### Element Adjacent to Each other
 

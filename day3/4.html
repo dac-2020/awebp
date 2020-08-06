@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Flex Direction</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: red;
+      "
+    >
+      <div
+        style="
+          flex: 1;
+          background: yellow;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        A
+      </div>
+      <div
+        style="
+          flex: 10;
+          background: green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          color: #fff;
+          font-size: 64px;
+          font-family: cursive;
+        "
+      >
+        Coming Soon!
+      </div>
+      <div style="flex: 1; background: blue;">B</div>
+    </div>
+  </body>
+</html>
