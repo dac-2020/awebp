@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>background as an image</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+
+      .myclass {
+        height: 100vh;
+
+        /* background: url('s1.jpg') */
+        background: url("https://picsum.photos/id/1/1400/1200");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myclass"></div>
+  </body>
+</html>

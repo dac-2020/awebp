@@ -20,6 +20,13 @@
 - Direction Column
   -- Main Axis (Y) / Cross Axis (X)
 
+## Image as background
+
+background
+background-repeat
+background-size
+bcackground-position
+
 # Day 2
 
 - Quick Revision
