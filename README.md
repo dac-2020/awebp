@@ -8,6 +8,26 @@
 - Fontawsome
 - background and graident
 
+# JavaScript
+
+- Button Click Event Action Validate Logic
+
+- HTML - This is all about PRESENTATION of data. using tags.
+- CSS - This is all about making things BEAUTIFUL. (Make tags beautiful)
+- JS - This is all about making things INTERACTIVE. (Making tags/element interactive )
+
+# HTML & JS Binding
+
+- Inline - alert()
+- Interal - <script>
+- External - <script src="">
+
+# HTML & CSS Binding
+
+- Inline - Using style="" attribute inside an Element
+- Internal - Using <style> tag
+- External - Using <link> tag
+
 # HTML & XML
 
 - Both are mark up language
