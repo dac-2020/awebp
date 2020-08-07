@@ -8,6 +8,32 @@
 - Fontawsome
 - background and graident
 
+# HTML & XML
+
+- Both are mark up language
+- Both are consit of Tags
+- Syntax of markup language <html></html> || <dac></dac>
+- Must have root tags or root node or root element. #1
+- Tags must be closed. #2
+- Tags must be properly closed. #3 (Stack || bracket match)
+
+# Assignment Questions?
+
+- How and Where to run the XML ?
+- What is the purpose and use of xml?
+- Tricky - can we use html tag in xml; will that xml remains valid xml?
+
+# Practical Assignment
+
+- Create your own Profile / CV using flexlayout.
+
+# Observe / Study the URL
+
+- http://localhost:5500/day3/1.html
+- https://www.google.com/
+- https://dacroom.web.app/home
+  -- http/https PROTOCOL || Application Layer Protocol.
+
 # Day 3
 
 - Flexbox [Direction / Demo]
