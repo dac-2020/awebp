@@ -12,7 +12,7 @@
 
 - Button Click Event Action Validate Logic
 
-- HTML - This is all about PRESENTATION of data. using tags.
+- HTML - This is all about PRESENTATION of data. using predefined tags.
 - CSS - This is all about making things BEAUTIFUL. (Make tags beautiful)
 - JS - This is all about making things INTERACTIVE. (Making tags/element interactive )
 
