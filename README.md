@@ -1,3 +1,25 @@
+# Day 5
+
+- Chrome Dev Tools
+- JS Fundamentals
+- CSS Selectors
+- document
+
+# Difficulites Which we faced yesterday??
+
+- html & js (inline/internal/external)
+- SYNTAX (let / var /const / function)
+- document (querySelector, getElementById)
+- innerHTML
+- Flow of the program / dry run (Button/Event/Action/logic)
+
+## Common Mistakes
+
+- We have not included the JS file
+- Spell Error in method name
+- Spell Error in js file name / inclusion
+- console.log never appperas in web page.
+
 # Day 4
 
 - Flexbox [ CV Practical / Google Page]
