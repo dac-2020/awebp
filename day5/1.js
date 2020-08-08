@@ -5,7 +5,7 @@ function handleMouseOver() {
   id2Element.style.background = "pink";
   id2Element.style.color = "royalblue";
 
-  id2Element.innerHTML = "Hello CDACIANS!!";
+  id2Element.innerHTML = "Hello Id Selectors!!";
 }
 
 function handleMouseOut() {

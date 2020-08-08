@@ -3,7 +3,7 @@ function handleMouseOver() {
   id2Element.style.background = "royalblue";
   id2Element.style.color = "yellow";
 
-  id2Element.innerHTML = "Hello CDACIANS!!";
+  id2Element.innerHTML = "Hello Class Selector!!";
 }
 
 function handleMouseOut() {
