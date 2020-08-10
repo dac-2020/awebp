@@ -1,5 +1,20 @@
 # Day 5
 
+- document DOM Operations
+- Chrome Dev Tools
+- JS Fundamentals
+- CSS Selectors
+
+# Todo
+
+- Dynamic Comment with Input field
+- Insert latest comment at the top
+- Layout to delete the comment and challanges
+- Layout to delete using clone
+- Delete Comment using this
+
+# Day 5
+
 - Chrome Dev Tools
 - JS Fundamentals
 - CSS Selectors
