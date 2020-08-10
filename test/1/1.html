@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <script src="1.js"></script>
+  </head>
+  <body>
+    <div>Someone has posted something!!!</div>
+
+    <div style="margin-top: 8px; margin-bottom: 8px;">
+      <input
+        type="text"
+        name=""
+        id="commentInputId"
+        placeholder="comment here..."
+      />
+    </div>
+
+    <div>
+      <!-- logic for like now-->
+      <button id="btnid" onclick="likeHere()">Like 1</button>
+
+      <button onclick="commentHere()">Comment Now</button>
+    </div>
+
+    <!-- Will Contain all the comment-->
+    <div id="commentBox"></div>
+  </body>
+</html>
