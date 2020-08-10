@@ -12,6 +12,7 @@ function commentHere() {
 
   const newElementChild2 = document.createElement("button");
   newElementChild2.textContent = "Delete";
+  newElementChild2.addEventListener("click", likeHere);
 
   const newElement = document.createElement("div");
   newElement.style.display = "flex";
