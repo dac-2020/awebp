@@ -11,29 +11,41 @@
     <script src="1.js"></script>
   </head>
   <body>
-    <div>Someone has posted something!!!</div>
+    <div
+      style="display: flex; flex-direction: column; align-items: center;"
+    >
+      <div>Someone has posted something!!!</div>
 
-    <div style="margin-top: 8px; margin-bottom: 8px;">
-      <input
-        type="text"
-        name=""
-        id="commentInputId"
-        placeholder="comment here..."
-      />
-    </div>
+      <div style="margin-top: 8px; margin-bottom: 8px;">
+        <input
+          type="text"
+          name=""
+          id="commentInputId"
+          placeholder="comment here..."
+        />
+      </div>
 
-    <div>
-      <!-- logic for like now-->
-      <button id="btnid" onclick="likeHere()">Like 1</button>
+      <div>
+        <!-- logic for like now-->
+        <button id="btnid" onclick="likeHere()">Like 1</button>
 
-      <button onclick="commentHere()">Comment Now</button>
-    </div>
+        <button onclick="commentHere()">Comment Now</button>
+      </div>
 
-    <!-- Will Contain all the comment-->
-    <div id="commentBox">
-      <div style="display: flex; justify-content: space-between;">
-        <div>User Comment</div>
-        <button>Delete</button>
+      <!-- Will Contain all the comment-->
+      <div id="commentBox">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+            visibility: hidden;
+          "
+          id="commentRef"
+        >
+          <div>User Comment</div>
+          <button onclick="deleteComment(this)">Delete</button>
+        </div>
       </div>
     </div>
   </body>

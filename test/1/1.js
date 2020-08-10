@@ -1,7 +1,7 @@
 var commentCounter = 1;
 var likeCounter = 1;
 
-function commentHere() {
+function commentHere1() {
   // read comment
   const userComment = document.querySelector("#commentInputId").value;
 
@@ -12,7 +12,7 @@ function commentHere() {
 
   const newElementChild2 = document.createElement("button");
   newElementChild2.textContent = "Delete";
-  newElementChild2.addEventListener("click", likeHere);
+  newElementChild2.addEventListener("click", deleteComment);
 
   const newElement = document.createElement("div");
   newElement.style.display = "flex";
@@ -35,9 +35,32 @@ function commentHere() {
   document.querySelector("#commentInputId").value = "";
 }
 
+function commentHere() {
+  // read comment
+  const userComment = document.querySelector("#commentInputId").value;
+
+  // create new element
+  const newElement = document.querySelector("#commentRef").cloneNode(true);
+  newElement.style.visibility = "visible";
+  newElement.children[0].innerHTML = userComment;
+
+  // comment box elment
+  const commentBox = document.querySelector("#commentBox");
+
+  // append the new element to parent
+  // commentBox.appendChild(newElement);
+  commentBox.insertBefore(newElement, commentBox.firstChild);
+
+  document.querySelector("#commentInputId").value = "";
+}
+
 function likeHere() {
   likeCounter++;
 
   let btnElement = document.querySelector("#btnid");
   btnElement.innerHTML = "Like " + likeCounter;
+}
+
+function deleteComment(btnElementRef) {
+  btnElementRef.parentElement.remove();
 }
