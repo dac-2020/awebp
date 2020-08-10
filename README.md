@@ -5,6 +5,12 @@
 - JS Fundamentals
 - CSS Selectors
 
+# Next
+
+- Practice
+- Boostrap
+- Ajax
+
 # Quick Revision
 
 - document
