@@ -16,6 +16,7 @@ function commentHere() {
   const commentBox = document.querySelector("#commentBox");
 
   // now we want to add the element at the top.
+  // commentBox.appendChild(newElement);
   commentBox.insertBefore(newElement, commentBox.firstChild);
 
   // clean the input box
