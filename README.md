@@ -1,4 +1,4 @@
-# Day 5
+# Day 6
 
 - document DOM Operations
 - Chrome Dev Tools
@@ -22,6 +22,36 @@
 - Layout to delete the comment and challanges
 - Layout to delete using clone
 - Delete Comment using this
+
+## Method/Function Declartion Rule in C / Javascript
+
+```
+String main(String a) {
+
+  return "Hello"
+}
+```
+
+```
+function main() {
+
+  // return "hello world";
+  // return;
+}
+```
+
+```
+  // it takes one parameter and data type of parameter is int
+  // it reutnrs int value
+  int main(int a, string b) {
+    return 100;
+  }
+
+
+  function main(a, b) {
+    return 100;
+  }
+```
 
 # Day 5
 
