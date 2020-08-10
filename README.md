@@ -5,6 +5,16 @@
 - JS Fundamentals
 - CSS Selectors
 
+# Quick Revision
+
+- document
+- innerHTML
+- querySelector, getElementById, getElementByClassName, getElementByTagName
+- createElement
+- children
+- parent and parentElement
+- remove and removeChild
+
 # Todo
 
 - Dynamic Comment with Input field
