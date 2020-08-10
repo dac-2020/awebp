@@ -6,12 +6,22 @@ function commentHere() {
   const userComment = document.querySelector("#commentInputId").value;
 
   // create new element
+  const newElementChild1 = document.createElement("div");
+  newElementChild1.style.marginRight = "50px";
+  newElementChild1.textContent = userComment;
+
+  const newElementChild2 = document.createElement("button");
+  newElementChild2.textContent = "Delete";
+
   const newElement = document.createElement("div");
-  newElement.textContent = userComment;
+  newElement.style.display = "flex";
+  newElement.style.justifyContent = "space-between";
+  newElement.appendChild(newElementChild1);
+  newElement.appendChild(newElementChild2);
 
   // add styling to new element
-  newElement.style.background = "royalblue"; // values must be in double quotes or single quote
-  newElement.style.color = "white";
+  // newElement.style.background = "royalblue"; // values must be in double quotes or single quote
+  // newElement.style.color = "white";
   newElement.style.margin = "4px";
 
   // comment box elment
