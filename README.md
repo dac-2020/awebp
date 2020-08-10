@@ -53,6 +53,11 @@ function main() {
   }
 ```
 
+## Concept of this
+
+- this represesnt current object;
+- in html; elements are also object;
+
 # Day 5
 
 - Chrome Dev Tools
