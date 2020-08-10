@@ -7,7 +7,9 @@
 
 # Next
 
+- Layout like whatsapp
 - Practice
+- Edit the comment
 - Boostrap
 - Ajax
 
