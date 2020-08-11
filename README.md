@@ -1,3 +1,13 @@
+# Day 7
+
+- Chrome Dev Tools
+- JS Fundamentals
+- Event and keyCode
+- callback / event
+- window.addEventListener
+- bootstrap
+- Ajax preparation ; as thin client; xml parsing; json
+
 # Day 6
 
 - document DOM Operations
