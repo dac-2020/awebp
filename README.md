@@ -2,11 +2,16 @@
 
 - Chrome Dev Tools
 - JS Fundamentals
+- bootstrap
 - Event and keyCode
 - callback / event
 - window.addEventListener
-- bootstrap
 - Ajax preparation ; as thin client; xml parsing; json
+
+# Documentation
+
+- https://devdocs.io/
+- https://www.w3schools.com/JSREF/DEFAULT.ASP
 
 # Day 6
 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <script src="1.js"></script>
+  </head>
+  <body>
+    <div>Someone has posted something!!!</div>
+
+    <div style="margin-top: 4px; margin-bottom: 4px;">
+      <input
+        type="text"
+        name=""
+        id="inputId1"
+        value="Hello Anjali"
+        placeholder="comment using this"
+      />
+    </div>
+
+    <div>
+      <!-- logic for like now-->
+      <button id="btnid" onclick="likeHere()">Like 1</button>
+
+      <button onclick="commentHere()">Comment Now</button>
+    </div>
+
+    <!-- Will Contain all the comment-->
+    <div id="commentBox">
+      <!-- Sample Reference Comment -->
+      <div
+        id="referenceCommentId"
+        style="
+          display: flex;
+          justify-content: space-between;
+          visibility: hidden;
+        "
+      >
+        <div>Sample Reference Comment</div>
+        <button onclick="deleteComment(this)">Delete</button>
+      </div>
+    </div>
+  </body>
+</html>
