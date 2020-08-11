@@ -8,6 +8,10 @@
 - window.addEventListener
 - Ajax preparation ; as thin client; xml parsing; json
 
+# Callback Syntax
+
+- A function which accepts function as an another paramter.
+
 # Documentation
 
 - https://devdocs.io/
