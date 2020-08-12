@@ -1,6 +1,6 @@
 # Day 9
 
-- how to stop non block things // how to stop interval :: SANAM or ME
+- how to stop non block things // how to stop interval :: SANAM or ME (clearInterval())
 - what can be the problem with `Async block or Non Blocking Code`.
 
 # Day 8
@@ -36,6 +36,8 @@
 
 - Blocking code
 - Non Blocking Code /Asnchronous code
+
+## Array Fundamental
 
 # Day 7
 
