@@ -1,3 +1,8 @@
+# Day 9
+
+- how to stop non block things // how to stop interval :: SANAM or ME
+- what can be the problem with `Async block or Non Blocking Code`.
+
 # Day 8
 
 - Chrome Dev Tools
