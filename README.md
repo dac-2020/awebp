@@ -29,8 +29,8 @@
 
 ## Study Global Function
 
-- setTimout()
-- setInterval()
+- setTimout() // with callback fn
+- setInterval() // with callback fn
 
 ## Study
 
@@ -38,6 +38,19 @@
 - Non Blocking Code /Asnchronous code
 
 ## Array Fundamental
+
+- declare
+- access
+- update
+- update at any index (Splice)
+
+## Working with Objects usin JSON
+
+- {}
+
+## Working with an Array of Object.
+
+- [{}, {}, {}]
 
 # Day 7
 
