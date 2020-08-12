@@ -8,12 +8,29 @@
 - Arrays, JSON and XML
 - Ajax Preparation
 
-## Selector in Doucment
+## Selector Javascript
 
 - document.querySelector() # All in One
 - document.getElementById()
 - document.getElementByTagName()
 - document.getElementByClassName()
+
+## Practice Functions
+
+- Named,
+- Annony,
+- Arrow Function and
+- Callback
+
+## Study Global Function
+
+- setTimout()
+- setInterval()
+
+## Study
+
+- Blocking code
+- Non Blocking Code /Asnchronous code
 
 # Day 7
 
