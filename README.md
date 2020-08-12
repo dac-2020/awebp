@@ -1,12 +1,28 @@
+# Day 8
+
+- Chrome Dev Tools
+- JS Fundamentals Programming syntax and Functions and callbackfunction
+- bootstrap
+- functions parameter
+- callback functions usage
+- Arrays, JSON and XML
+- Ajax Preparation
+
+## Selector in Doucment
+
+- document.querySelector() # All in One
+- document.getElementById()
+- document.getElementByTagName()
+- document.getElementByClassName()
+
 # Day 7
 
 - Chrome Dev Tools
-- JS Fundamentals
+- JS Fundamentals Programming syntax and Functions and callbackfunction
 - bootstrap
 - Event and keyCode
 - callback / event
 - window.addEventListener
-- Ajax preparation ; as thin client; xml parsing; json
 
 # Callback Syntax
 
