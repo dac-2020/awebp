@@ -63,6 +63,9 @@ let arr = ["Tejas", "Sachin", "Omkar", "Umesh", "Yaminee"]; // before
 arr.splice(2, 0, "sanam");
 let arr = ["Tejas", "Sachin", "Sanam", "Omkar", "Umesh", "Yaminee"]; // after
 
+// delete at index 4, second parameter is deleteCount
+arr.splice(4, 2);
+
 // More Demo
 // lets create an integer array
 let arr = [1, 2, 3, 4, 5];
