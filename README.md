@@ -3,6 +3,64 @@
 - how to stop non block things // how to stop interval :: SANAM or ME (clearInterval())
 - what can be the problem with `Async block or Non Blocking Code`.
 
+# Bootstrap
+
+- What is boostrap
+  -- CSS Framework
+  -- Its Super Easy to learn.
+  -- It consist of reusable style; that means lot of CSS classes.
+
+- Basic Reusable Classes Provided By Bootstrap.
+  -- container, container-fluid
+  -- row, col
+
+# Rule 1 :: Linking the Boostrap in the Program.
+
+- Link the Bootstrap in your html.
+- Add the meta tag; with the help of website.
+
+# Rule 2
+
+- Put Everything Under
+  `container || container-fluid`
+  `row, col`
+
+## colors classes
+
+`primary, seconday, info, success, warning, danger, light, dark`
+-- bg-primary
+-- bg-secondary
+-- bg-info
+-- bg-success
+-- bg-warning
+-- bg-danger
+-- bg-light
+-- bg-dark
+
+-- text-primary
+-- text-secondary
+-- text-info
+-- text-success
+-- text-warning
+-- text-danger
+-- text-light
+-- text-dark
+
+-- mt, mb, ml, mr
+-- pt, pb, pl, pr
+
+- Why?
+  -- Creating Layout (we can create with flex; somehow it is not easy.)
+  -- Making Elements (Webpage) beautiful.
+  -- Default Styling of an Element
+
+- Advantage
+  -- Responsive
+  -- In Build Classes
+  -- Consistency
+- Disadvantage
+  -- Size
+
 # Day 8
 
 - Chrome Dev Tools
