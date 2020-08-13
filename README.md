@@ -24,6 +24,9 @@
 - Put Everything Under
   `container || container-fluid`
   `row, col`
+  `sm, md, lg, xl`
+  `col-sm, col-md, col-lg`
+  `col-md-6 col-sm-12`
   `align-items-center`
   `justify-content-start, justify-content-end, justify-content-between`
 
