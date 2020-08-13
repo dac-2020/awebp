@@ -24,6 +24,8 @@
 - Put Everything Under
   `container || container-fluid`
   `row, col`
+  `align-items-center`
+  `justify-content-start, justify-content-end, justify-content-between`
 
 ## colors classes
 
