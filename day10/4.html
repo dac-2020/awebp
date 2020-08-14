@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>My Project!</title>
+
+    <script src="4.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- ROW 1-->
+      <div class="row bg-dark align-items-center" style="height: 60px;">
+        <div class="col text-light">My Project</div>
+        <div class="col-1 text-light d-flex justify-content-end">
+          Logout
+        </div>
+      </div>
+
+      <!-- ROW 2-->
+      <div class="row justify-content-center mt-1">
+        <div class="col-12 col-md-6 d-flex flex-column">
+          <!-- Content Row -->
+          <div class="row border">
+            <div
+              class="col d-flex justify-content-center align-items-center"
+              style="height: 200px;"
+            >
+              Hello
+            </div>
+          </div>
+
+          <!-- Button Row -->
+          <div class="row">
+            <div class="col-3 p-0">
+              <button
+                onclick="likeMe(this)"
+                class="btn btn-sm btn-outline-secondary btn-block"
+              >
+                Like <span>0</span>
+              </button>
+            </div>
+            <div class="col-6 p-0">
+              <input
+                type="text"
+                name=""
+                class="form-control form-control-sm"
+                placeholder="Add your comment"
+              />
+            </div>
+            <div class="col-3 p-0">
+              <button
+                onclick="readAndAddComment(this)"
+                class="btn btn-sm btn-outline-secondary btn-block"
+              >
+                Comment
+              </button>
+            </div>
+          </div>
+
+          <!-- Comment Under one Box So that comment operations become relatively easy-->
+          <div class="d-flex flex-column" id="commentContainer">
+            <div class="row mt-1">
+              <div class="col-10 p-0">Sample comment here</div>
+              <div class="col-2 p-0">
+                <button
+                  class="btn btn-sm btn-block btn-outline-danger"
+                  onclick="deleteComment(this)"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
