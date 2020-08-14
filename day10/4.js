@@ -11,32 +11,41 @@ let likeMe = function (btnElement) {
   btnElement.children[0].innerHTML = likeCount;
 };
 
-let readAndAddComment = function (btnElementComment) {
-  let userComment =
-    btnElementComment.parentElement.parentElement.children[1].children[0]
-      .value;
-
-  console.log(
-    btnElementComment.parentElement.parentElement.parentElement.children[2]
-      .children[0]
-  );
-
-  let commentBox =
-    btnElementComment.parentElement.parentElement.parentElement
-      .children[2];
-
-  let newElement = commentBox.children[0].cloneNode(true);
-  newElement.children[0].innerHTML = userComment;
-
-  commentBox.insertBefore(newElement, commentBox.firstChild);
-
-  // clear the input comment
-  btnElementComment.parentElement.parentElement.children[1].children[0].value =
-    "";
-};
-
 let deleteComment = (btnEelementDel) => {
   console.log(btnEelementDel.parentElement.parentElement);
 
   btnEelementDel.parentElement.parentElement.remove();
+};
+
+/**
+ *
+ *
+ * We have to clone the sample comment Elemnt
+ * we have to update the new elment with user comment
+ *
+ * Read the value from the input box
+ * Clear the input box at the end
+ *
+ * @param {} btnElementComment
+ */
+let readAndAddComment = (btnElementComment) => {
+  //  task 1 is clone the comment row
+  let commentBox =
+    btnElementComment.parentElement.parentElement.parentElement
+      .children[2];
+
+  console.log(commentBox);
+  let newElement = commentBox.children[0].cloneNode(true);
+
+  // read the input
+  const inputBox =
+    btnElementComment.parentElement.parentElement.children[1].children[0];
+
+  // dynamic value in new element
+  newElement.children[0].innerHTML = inputBox.value;
+
+  // clear the input box
+  inputBox.value = "";
+
+  commentBox.insertBefore(newElement, commentBox.firstChild);
 };
