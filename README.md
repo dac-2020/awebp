@@ -1,3 +1,7 @@
+# Day 10
+
+- Bootstrap and DOM Operations.
+
 # Day 9
 
 - how to stop non block things // how to stop interval :: SANAM or ME (clearInterval())
