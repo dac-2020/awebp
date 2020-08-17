@@ -13,7 +13,7 @@
 
 ## 21st Aug - 27th Aug (5 Days)
 
-- NodeJS, ExpressJS, HTTP and API Development
+- NodeJS, ExpressJS, Database, HTTP and API Development
 
 ## 28th Aug - 2nd Sep (5 Days)
 
