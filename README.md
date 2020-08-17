@@ -2,6 +2,19 @@
 
 - AJAX, XML, JSON
 
+## AJAX CALL
+
+- let xhr = new XMLHttpRequest();
+- xhr.open() // study open()
+
+- This must comes before send() method
+- xhr.onreadystatechange = ()=> {} // handle responses
+- xhr.readyState
+- xhr.reponseText // response from the server;;
+- xhr.responseXML
+
+- xhr.send()
+
 # Day 10
 
 - Bootstrap and DOM Operations.

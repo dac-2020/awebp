@@ -2,7 +2,14 @@
 
 ## 17th Aug - 20th Aug (4 Days)
 
-- AJAX, XML, JSON, jQuery HTTP, REST API (With HTML, DOM and CSS)
+- AJAX,
+- XML,
+- JSON,
+- (XML vs JSON),
+- HTTP,
+- jQuery (AJAX),
+- REST API (With HTML, DOM and CSS)
+- Weather Application
 
 ## 21st Aug - 27th Aug (5 Days)
 
