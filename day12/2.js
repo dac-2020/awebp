@@ -37,11 +37,11 @@ let callAjaxXML = function () {
 
   xhr.open("GET", "https://fakerestapi.azurewebsites.net/api/Authors");
 
-  // i m looking for xml :: Requesting to the server
+  // i m looking for xml :: MIME Type
   xhr.setRequestHeader("accept", "application/xml");
 
   xhr.onload = () => {
-    const xmldoc = xhr.responseXML;
+    let xmldoc = xhr.responseXML;
 
     // painting of the page will be done by this method
     // xmlDomHandlerV1(xmldoc);
@@ -74,7 +74,7 @@ let xmlDomHandlerV1 = (xmlDoc) => {
   }
 };
 
-let xmlDomHandler = (xmlDoc) => {
+let xmlDomHandlerV2 = (xmlDoc) => {
   const authorList = xmlDoc.querySelectorAll("Author");
 
   for (let i = 0; i < authorList.length; i++) {
@@ -88,6 +88,22 @@ let xmlDomHandler = (xmlDoc) => {
     let newElement = parent.children[0].cloneNode(true);
 
     newElement.innerHTML = firstName + " " + lastName;
+
+    parent.insertBefore(newElement, parent.firstChild);
+  }
+};
+
+let xmlDomHandler = (xmlDoc) => {
+  const authorList = xmlDoc.querySelectorAll("Author");
+
+  for (let i = 0; i < authorList.length; i++) {
+    const author = authorList[i];
+
+    const firstName = author.children[0].innerHTML;
+
+    const parent = document.querySelector("#parent");
+    const newElement = parent.children[0].cloneNode(true);
+    newElement.innerHTML = firstName;
 
     parent.insertBefore(newElement, parent.firstChild);
   }
