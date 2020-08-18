@@ -14,6 +14,8 @@ let callAjax = function () {
 
 // DOM HTML, CSS
 let domLogic = function (refJson) {
+  console.log(refJson);
+
   let parent = document.querySelector("#parent");
 
   for (let i = 0; i < refJson.data.length; i++) {
