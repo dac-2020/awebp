@@ -26,6 +26,8 @@ let domLogic = function (refJson) {
 };
 
 /**
+ * MIN. REQUERMENT :: SERVER PROGRAAM (API)
+ *
  * AJAX - How to connect or how to talk with server
  * RESPONSE (JSON/XML) - Knowledge
  *

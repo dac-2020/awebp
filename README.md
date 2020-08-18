@@ -8,6 +8,11 @@
 - Array of JSON
 - JSON with Property cantaing Array Value
 
+# FAKE REST API (MY FAKE SERVER)
+
+- https://fakerestapi.azurewebsites.net/
+- https://reqres.in/
+
 # Day 11
 
 - AJAX, XML, JSON
