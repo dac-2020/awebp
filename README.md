@@ -1,3 +1,13 @@
+# Day 12
+
+# JSON
+
+- Read a property
+- Update a property
+- Delete a property
+- Array of JSON
+- JSON with Property cantaing Array Value
+
 # Day 11
 
 - AJAX, XML, JSON
