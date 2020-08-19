@@ -35,6 +35,7 @@ let jsonDomOperation = function (refjson) {
 let callAjaxXML = function () {
   let xhr = new XMLHttpRequest();
 
+  // REQUEST_METHOD, REQUEST_URL
   xhr.open("GET", "https://fakerestapi.azurewebsites.net/api/Authors");
 
   // i m looking for xml :: MIME Type

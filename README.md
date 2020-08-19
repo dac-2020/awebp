@@ -1,8 +1,77 @@
 # Day 13
 
-- jQuery
 - HTTP
-- Weather Application
+  -- GET
+  --- TRANSPARENT
+  --- SEND MIN INFORMATION TO THE SERVER AND GET MAX INFORMATION FROM SERVER
+  --- INFORMATION ARE SEND IN URL
+  --- LIMITATION - 1 :: THE LENGTH OF THE URL IS LIMITED
+  --- LIMITATION - 2 :: URL IS READABLE :: CONCERN :: SECURITY CONSTRAINT
+  --- LIMITATION - 3 :: Only Text informaton. Binary Data LIMIATION (IMG, MP3, MP4)
+
+  --- Reference URL
+
+```
+  https://www.google.com/                         :: URL WITHOUT INFORMATION
+  https://www.google.com/search?q=java&oq=java&   :: URL WITH INFORMATION SENT BY CLIENT
+```
+
+-- POST
+--- IT DOES NOT PASS INFORMATION IN URL (HTTP BODY)
+--- NO LENGHT LIMIATATION
+--- SECIRITY ISSUE
+--- BINARY DATA SUPPORT.
+-- PUT
+-- DELETE
+
+## STUDY URL
+
+```
+  https://www.google.com:80/                         :: URL WITHOUT INFORMATION
+  https://www.google.com:80/search?q=java&oq=java&   :: URL WITH INFORMATION SENT BY CLIENT
+  https://drive.google.com/
+  https:/mail.google.com/abcd/?
+
+  http://localhost:5500/day12/3.html
+
+https://www.google.com/search?
+
+```
+
+- Seprator
+  -- :// Between Protocl and Domain
+  -- . Between Domain Name and Extension
+  -- : Between Domain And Port
+  -- / Between Path Parameter
+  -- ? Query Separator (Optional) [KEY and VALUE]
+  -- & Between two key
+  -- = key and value
+  e.g ?key1=value1&key2=value2&key3=value3
+
+- 1. Https => Protocol
+- 2. www => Sub Domain
+- 3. google => domain
+- 4. com => domain extension
+- 5. :80 => Default port of web (: is the seprator between Domain and Port Number)
+- 6. /serach => Path Parameter
+- 7. ?
+
+https://devdocs.io/http/methods/get
+https://home.openweathermap.org/api_keys
+
+# SUBMITTING A FORM
+
+- username email and password
+- https://www.mydomain.com/form?username=mean&password=12345&email=abcd@gmail.com
+
+# Weather API
+
+- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
+- https://api.openweathermap.org/data/2.5/weather?q=mumbai&appid=7023923dd26a725da995c75b65864de5&units=metric
+
+* jQuery
+* HTTP
+* Weather Application
 
 # Day 12
 
