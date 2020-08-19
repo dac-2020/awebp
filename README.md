@@ -1,6 +1,8 @@
 # Day 13
-* Weather Application
 
+- jQuery
+- HTTP
+- Weather Application
 
 # Day 12
 
