@@ -1,6 +1,7 @@
 let getWeather = () => {
   // CITY NAME IS HARD CODED
-  let cityName = "pune";
+
+  let cityName = document.querySelector("#textid").value || "pune";
 
   /*let url =
     "https://api.openweathermap.org/data/2.5/weather?appid=7023923dd26a725da995c75b65864de5&units=metric&q=pune";*/
@@ -33,4 +34,6 @@ let domOperationHere = (refjson) => {
   newElement.innerHTML = name + " " + maxTemp;
 
   parent.insertBefore(newElement, parent.firstChild);
+
+  document.querySelector("#textid").value = "";
 };
