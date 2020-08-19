@@ -1,0 +1,53 @@
+AJAX SIMPLIFIED
+
+In this session we will learn about AJAX.
+
+For Ajax we need a REST API
+
+https://fakerestapi.azurewebsites.net/
+
+Now lets write the code using AJAX!!
+
+First lets try in Browser.
+
+
+Returns JSON RESPONSE
+
+Now lets try for XML RESPONSE.
+lets refresh the page.
+we have to set header
+
+
+This way we got the xml response.
+
+
+Now lets write the program; HTML, CSS, and JS and do DOM Opertion for the same.
+
+
+
+// NOW LETS DO THE DATA AND DO THE DOM OPERATION 
+
+
+// lets begin with JSON Response First
+
+
+// lets do teh same for XML RESPONSE now.
+
+// let s read all the author
+
+
+// lets beautify the data
+
+all the data using JSON
+
+the data from server using XML.
+
+
+Thank you.!!
+
+
+
+
+
+
+
