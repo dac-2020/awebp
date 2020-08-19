@@ -1,3 +1,9 @@
+# Day 13
+
+- jQuery
+- HTTP
+- Weather Application
+
 # Day 12
 
 # JSON
