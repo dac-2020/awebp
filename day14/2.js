@@ -6,7 +6,6 @@ let callAjaxUsingJquery = () => {
     cityName;
 
   $.ajax(url).done((data1) => {
-    console.log(data1);
     myDOMOperationHere(data1);
   });
 };
