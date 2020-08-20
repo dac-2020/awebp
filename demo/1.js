@@ -2,9 +2,10 @@
  * Package Manager
  * Hello World
  * Project strucure.
+ * Global Module
+ * Run and Debug
  * Import Export Local Module Management
  * File System Module
- * Debugging
  * Working With Databases
  * Collections
  * Promise
@@ -14,10 +15,18 @@
  * Express JS
  * Express JS with Database
  */
+const World = require("./2");
+const three = require("./3");
+const four = require("./4");
 
 class Hello {
   static main() {
     console.log("Hello World");
+    const output = World.getWorld();
+    console.log(output);
+
+    console.log(three.id, three.title, three);
+    console.log(four);
   }
 }
 
