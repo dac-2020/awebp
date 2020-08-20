@@ -1,0 +1,13 @@
+In this session we will learn about
+
+A Step by Step Comparision between  "jQuery vs native javascript"
+
+1. Find
+2. Update
+3. Value
+4. CSS
+5. Traverse
+6. insertBefore and insertAfter
+7. clone
+
+Lets start with new program and adding jQuery into the project. 
