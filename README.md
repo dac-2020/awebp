@@ -1,3 +1,8 @@
+# Day 14
+
+- jQuery vs document (jquery was mainly designed to support DOM operation)
+- \$("#id1") vs document.querySelector('#id1') vs document.getElementById('id1')
+
 # Day 13
 
 - HTTP
