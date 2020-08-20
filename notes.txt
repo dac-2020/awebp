@@ -4,10 +4,15 @@ A Step by Step Comparision between  "jQuery vs native javascript"
 
 1. Find
 2. Update
-3. Value
-4. CSS
-5. Traverse
-6. insertBefore and insertAfter
-7. clone
+3. Value 
+4. CSS (Show/hide)
+5. Traverse 
+6. insertBefore and insertAfter (Add before child1)
+7. clone (lets clone child1)
 
 Lets start with new program and adding jQuery into the project. 
+
+Lets start the operation.
+
+We have done all the above operation using jQuery. 
+Thank you.
